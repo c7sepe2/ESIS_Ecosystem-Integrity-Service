@@ -40,7 +40,7 @@ Traits can be supplemented and expanded at any time without destabilizing the sy
 
 ### Tools	
 
-The software library Imalys (image analysis) was developed to derive traits from satellite images. Imalys offers generic processes for specific tasks, wrappers for known processes and a workflow that can be automated. 
+The software library [Imalys](../Imalys_ESIS-Tools) (image analysis) was developed to derive traits from satellite images. Imalys offers generic processes for specific tasks, wrappers for known processes and a workflow that can be automated. 
 
 Traits and tools are organized according to the modular principle. Both can be supplemented or improved if desired. The interfaces are open and documented.
 
