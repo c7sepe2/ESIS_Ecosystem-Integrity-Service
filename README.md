@@ -1,6 +1,6 @@
 # ESIS: EcoSystem Integrity Service
 
-![](/home/c7sepe2/ESIS/ESIS-Introduction/ESIS-Links.png)
+![](ESIS-Links.png)
 
 **Peter Selsam, Angela Lausch, Jan Bumberger**
 
