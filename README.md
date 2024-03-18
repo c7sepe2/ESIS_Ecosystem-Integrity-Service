@@ -10,7 +10,7 @@ Permoserstraße 15, 04318 Leipzig, Germany
 
 peter.selsam@ufz.de, www.ufz.de
 
-<img src="/home/c7sepe2/ESIS/ESIS-Introduction/UFZ-Logo.png" style="zoom: 33%;" />
+<img src="images/UFZ-Logo.png" style="zoom: 33%;" />
 
 ------
 
@@ -20,7 +20,7 @@ The Ecosystem Integrity Service (ESIS) was designed to link, analyze and model d
 
 ESIS data are based on observations, measurements and derived data, which are referred to below as “traits”. ESIS tools offer processes to create, combine and analyze traits.
 
-<img src="/home/c7sepe2/ESIS/ESIS-Introduction/Europe-NirV-Topology.png" style="zoom:50%;" />
+<img src="images/Europe-NirV-Topology.png" style="zoom:50%;" />
 
 *Vegetation index of Central Europe superimposed with shading from an elevation model. Elevation data from SRTM mission (2001), image data Landsat-8, 2014-2020. Vegetation index NIRv (red and infrared). Values between 0.0 (turquoise), 0.1 (red brown) to 0.4 (dark green)* 
 
@@ -64,7 +64,7 @@ Remote sensing has become an important tool for environmental research and espec
 
 However, data acquisition, data analysis and selection of suitable methods are still time-consuming for experts from other disciplines. In the ESIS project ([Lausch A, Selsam P, Pause M, Bumberger J.](https://doi.org/10.1098/rsta.2023.0058)) we are trying to put environmental indicators on a well-defined and reproducible basis. The Imalys software library is supposed to generate the remote sensing products defined for ESIS. Imalys is designed to run on a server like the OpenGeo Server (https://geoserver.org/) but can be used on any PC. 
 
-![](/home/c7sepe2/ESIS/ESIS-Introduction/ESIS-Workflow.png)
+![](images/ESIS-Workflow.png)
 
 Imalys was developed to select and process remote sensing data as automatically as possible. Imalys is particularly suitable when large amounts of data need to be processed identically and comparably.
 
@@ -74,7 +74,7 @@ Imalys was developed to select and process remote sensing data as automatically 
 
 Imalys independently selects suitable archives for a specified area and time period, extracts and calibrates the raw data for reflectance or radiation and projects them for a freely selected system. Imalys evaluates the quality of the raw data and produces optimized results using short time series. Data from different archives are automatically merged so that the user can further process an optimized image of the selected area.
 
-<img src="/home/c7sepe2/ESIS/ESIS-Introduction/Bode-Catchment-RGB.png" style="zoom: 33%;" />
+<img src="images/Bode-Catchment-RGB.png" style="zoom: 33%;" />
 
 *RGB color composite (natural colors) from Landsat-8 pictures. Mountainous region of the Harz and catchment of the Bode river (black lines), Germany, summer 2020*
 
@@ -84,7 +84,7 @@ Imalys independently selects suitable archives for a specified area and time per
 
 For image processing, Imalys offers processes for various pixel indices such as the vegetation index NDVI as well as processes for pattern analysis such as textures, contrast enhancement or Rao's entropy. Imalys supports time series, can determine trends and variances and contains methods for reducing image dimensions such as eigenvalues.
 
-<img src="/home/c7sepe2/ESIS/ESIS-Introduction/Timeline-Leipzig-2010-20.png" style="zoom:50%;" />
+<img src="images/Timeline-Leipzig-2010-20.png" style="zoom:50%;" />
 
 *Time course of the vegetation index NIRv between 2010 and 2020 (yellow) compared with the extreme dry year 2018 (green). Based on MODIS-Terra weekly images of green areas in the city of Leipzig.*
 
@@ -94,7 +94,7 @@ For image processing, Imalys offers processes for various pixel indices such as 
 
 Imalys uses a generic process for the spatial delineation of largely homogeneous areas that we call "zones". Zones can be attributed with various indicators for their spectral properties, the size, shape and the linkage of the zones. As the mean size of the zones can be selected freely, most of the indicators are largely independent of the absolute size and characterize areas on a larger scale than pixels.
 
-<img src="/home/c7sepe2/ESIS/ESIS-Introduction/Munich-Raos-Entropy.png" style="zoom:50%;" />
+<img src="images/Munich-Raos-Entropy.png" style="zoom:50%;" />
 
 *Rao’s Entropy is calculated as the mean differences of all pixel combinations within a sample. In this case zones are used as samples to return appropriate values even for small image elements. Colors: blue (0.0) … red (0.12), Landsat 8/9, May…October 2022, vicinity of Munich (white frame)*
 
@@ -104,7 +104,7 @@ Imalys uses a generic process for the spatial delineation of largely homogeneous
 
 The spectral combination of pixels and the color, shape, size and linkage of the zones can be classified using self-learning algorithms. Imalys also provides a process that combines different zones into structured "objects". The structure of these objects allows classification based on the internal composition of the objects and makes links such as cast shadows next to buildings or characteristic mixtures of different tree crowns accessible for classification. Spectrally identical areas can be assigned to completely different classes.
 
-<img src="/home/c7sepe2/ESIS/ESIS-Introduction/Leipzig-Objects.png" style="zoom: 33%;" />
+<img src="images/Leipzig-Objects.png" style="zoom: 33%;" />
 
 *Object based classification without any training using self adjusting machine learning processes. Spectral and structural clustering to 30 object types reduced to 15 landuse types. User defined colors. Leipzig 2017*
 
@@ -114,6 +114,6 @@ The spectral combination of pixels and the color, shape, size and linkage of the
 
 Many of the processes implemented in Imalys are also available with other software but Imalys bundles known and new processes in one command and can process large amounts of data without manual interaction. Imalys uses simple lists of commands and parameters to define process chains. With an optional variable list, the process chain can be repeated as often as required with alternating inputs. 
 
-<img src="/home/c7sepe2/ESIS/ESIS-Introduction/Leipzig-NirV-Timeline-40-Years.png" style="zoom:50%;" />
+<img src="images/Leipzig-NirV-Timeline-40-Years.png" style="zoom:50%;" />
 
 *Regression is used to estimate dependencies between different parameters. In this case the NirV plant metabolism index shows an increase (orange) or decrease (blue) up to 0.2% a year. Images taken from May…July, 1984…2022, Sensor Landsat 4, 5, 8, 9.*
