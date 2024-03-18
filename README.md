@@ -74,7 +74,7 @@ Imalys was developed to select and process remote sensing data as automatically 
 
 Imalys independently selects suitable archives for a specified area and time period, extracts and calibrates the raw data for reflectance or radiation and projects them for a freely selected system. Imalys evaluates the quality of the raw data and produces optimized results using short time series. Data from different archives are automatically merged so that the user can further process an optimized image of the selected area.
 
-<img src="images/Bode-Catchment-RGB.png" style="zoom: 33%;" />
+<img src="images/Bode-Catchment-RGB.png" style="zoom: 33;" />
 
 *RGB color composite (natural colors) from Landsat-8 pictures. Mountainous region of the Harz and catchment of the Bode river (black lines), Germany, summer 2020*
 
